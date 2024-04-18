@@ -30,4 +30,4 @@ if __name__ == "__main__":
     license_fp = "license2.lic"
     encoding = "utf-8"
     public_key_fp = "kms_serumsage_public_key.pem"
-    result, usr_name, expiry_date = verify_license(license_fp, encoding, public_key_fp)
+    result, err_msg, usr_name, expiry_date = verify_license(license_fp, encoding, public_key_fp)
